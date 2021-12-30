@@ -1,73 +1,70 @@
-body, img, input, p, a{
-	margin:0px;
-	padding:0px;
-	
+body,
+img,
+input,
+p,
+a {
+	margin: 0px;
+	padding: 0px;
 }
-.google{
-	padding:90px;
-	width:585px;
-	border:1px solid balck;
-	margin:auto;
-	
-}
-.google img{
-	height:135px;
-	width:350px;
-	margin:auto;
-	display:block;
-	margin-top:80px;
-	margin-bottom:20px;
-	
-}
-.google input[type="text"]{
-	width:96%;
-	padding:10px 0px;
-	margin-bottom:20px;
-	border=1px solid #B2B2B2;
-}
-.google input[type="text"]:hover{
-border:1px solid blue;
-
-}
-.google input[type="text"]:focus{
-	border=1px solid blue;
-}
-.button{
-	margin:auto;
-	overflow:hidden;
-	display:block;
-	
-}
-.button{
-	margin-left:160px;
-}
-.google input[type="submit"]{
-	padding:7px 15px; 
-	background-color:#F5F5F5;
+.google {
+	padding: 90px;
+	width: 585px;
+	border: 1px solid balck;
 	margin: auto;
-	text-align:center;
-	color:#737373;
-	font-size:13px;
-	font-weight:bold;
-	margin-bottom:20px;
-	border:auto;
 }
-	
-.google input[type="submit"]:hover{
-	
-	border:1px solid black;
-	color:black;
-	
+.google img {
+	height: 135px;
+	width: 350px;
+	margin: auto;
+	display: block;
+	margin-top: 80px;
+	margin-bottom: 20px;
 }
-.button p{
-	margin-left:20px;
-	font-size:14px;
-	
+.google input[type="text"] {
+	width: 96%;
+	padding: 10px 0px;
+	margin-bottom: 20px;
+	border: 1px solid #b2b2b2;
 }
-.button p a{
-	text-decoration:none;
-	margin-left:5px;
+.google input[type="text"]:hover {
+	border: 1px solid blue;
 }
-.button p a:hover{
-	text-decoration:underline;
+.google input[type="text"]:focus {
+	border: 1px solid blue;
+}
+.button {
+	margin: auto;
+	overflow: hidden;
+	display: block;
+}
+.button {
+	margin-left: 160px;
+}
+.google input[type="submit"] {
+	padding: 7px 15px;
+	background-color: #f5f5f5;
+	margin: auto;
+	border: 1px solid;
+	text-align: center;
+	color: #737373;
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	border: auto;
+}
+
+.google input[type="submit"]:hover {
+	border: 1px solid black;
+	color: black;
+}
+.button p {
+	margin-left: 20px;
+	font-size: 14px;
+}
+.button p a {
+	text-decoration: none;
+	margin-left: 5px;
+}
+.button p a:hover {
+	text-decoration: underline;
 }
